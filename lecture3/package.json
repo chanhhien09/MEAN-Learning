@@ -1,0 +1,16 @@
+{
+	"dependencies" : {
+		"express" : "4.13.4",
+		"http-status" : "0.2.0",
+		"mongoose" : "4.4.3",
+		"mongodb" : "2.1.7",
+		"wagner-core" : "0.2.0"
+	},
+	"devDependencies": {
+		"mocha" : "2.4.5",
+		"superagent" : "1.7.2"
+	},
+	"scripts" : {
+		"test" : "mocha test.js"
+	}
+}
