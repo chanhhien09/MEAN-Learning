@@ -1,8 +1,6 @@
 var superagent = require('superagent');
 var _ = require('underscore');
 
-// TODO: Make this function depend on the Config service from `dependencies.js`
-// and use Config.openExchangeRatesKey instead of an environment variable.
 module.exports = function(Config) {
   var url = 'http://openexchangerates.org/api/latest.json?app_id=' +
     Config.openExchangeRatesKey;
