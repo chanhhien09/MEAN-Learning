@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "browserify": "13.0.0",
+    "gulp": "3.9.1",
+    "gulp-browserify": "0.5.1",
+    "browserify-shim": "3.8.12",
+    "karma": "0.13.21",
+    "chai": "3.5.0",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "0.2.2",
+    "mocha": "2.4.5",
+    "karma-mocha": "0.2.2",
+    "karma-cli": "0.1.2",
+    "http-status": "0.2.0",
+    "underscore": "1.8.3"
+  }
+}
